@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP2",
+                "stepName": "Url: webtours",
+                "infFile": "t1.inf",
+                "time": 1615393372782
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "launch",
+                "rawStartTime": 1615393368271,
+                "rawEndTime": 1615393372785,
+                "thinkTime": 0.0,
+                "wastedTime": 0.42655253410339358
+            }
+        ]
+    }
+]

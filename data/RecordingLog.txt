@@ -1,0 +1,210 @@
+[API Trapper      ( a08:2e84)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (38e0:242c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[API Trapper      (3cd8:1f00)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3cd8:3068)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3cd8:3068)] Load Network Traffic Analyzers:
+[Network Analyzer (3cd8:3068)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3cd8:3068)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (3cd8:3068)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3cd8:3068)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (3cd8:3068)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (3cd8:3068)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3cd8:3068)]     Analyzer Module: local_server (value=)
+[Network Analyzer (3cd8:3068)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3cd8: 57c)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 172.217.160.141:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 172.217.160.138:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Web Request      (3cd8: 57c)] "GET /webtours/"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  3) Client -> Server @ : 639 bytes (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 142.250.71.3:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (3cd8:334c)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3cd8: 57c)]   (Sid:  3) Server -> Client : 665 bytes  (Service=HTTP)
+[Network Analyzer (3cd8:2eac)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3cd8:334c)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3cd8: 57c)] "GET /webtours/header.html"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  3) Client -> Server @ : 676 bytes (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (3cd8:2eac)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3cd8:26e0)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3cd8: 57c)]   (Sid:  3) Server -> Client : 1008 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  5) Client -> Server @ : 687 bytes (Service=HTTP)
+[Network Analyzer (3cd8:26e0)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3cd8: 57c)] "GET /webtours/images/hp_logo.png"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  3) Client -> Server @ : 592 bytes (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /chrome-variations/seed?osname=win&channel=stable&milestone=88"   
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8: 57c)]   (Sid:  4) Client -> Server @ : 449 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (3cd8: 57c)]   (Sid:  3) Server -> Client : 899 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /webtours/images/webtours.png"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  6) Client -> Server @ : 593 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid:  6) Server -> Client : 4488 bytes  (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8: 57c)]   (Sid:  4) Server -> Client : 327 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 54.201.231.242:80   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (3cd8: 57c)]   (Sid:  5) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "POST /k"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  7) Client -> Server @ : 372 bytes (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  5) Client -> Server @ : 728 bytes (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /WebTours/home.html"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  6) Client -> Server @ : 724 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid:  6) Server -> Client : 1660 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid:  5) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  5) Client -> Server @ : 624 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid:  5) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /favicon.ico"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  5) Client -> Server @ : 593 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid:  5) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid:  7) Server -> Client : 297 bytes  (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 142.250.67.42:443   (Service=)  (Sid=  8)  PROXIED!
+[Network Analyzer (3cd8:3a4c)]   (Sid:  8) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3cd8:3a4c)]   (Sid:  8) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Web Request      (3cd8: 57c)] "GET /v1/pages/ChRDaHJvbWUvODguMC40MzI0LjE5MBIXCTfZQeCPfjGJEgUN541ADhIFDc5BTHo=?alt=proto"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  8) Client -> Server @ : 535 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid:  8) Server -> Client : 628 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid:  3) Connection Terminated (by Server)
+[API Trapper      (3950:3044)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3cd8: 57c)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (3cd8: 57c)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 142.250.4.188:5228   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (3cd8:282c)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3cd8:282c)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[API Trapper      (2ea8:312c)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3cd8: 57c)]   (Sid:  9) Client -> Server @ : 302 bytes (SSL)
+[Network Analyzer (3cd8: 57c)]   (Sid:  9) Server -> Client : 1 bytes (SSL)
+[Network Analyzer (3cd8: 57c)]   (Sid:  9) Server -> Client : 66 bytes (SSL)
+[Network Analyzer (3cd8: 57c)]   (Sid:  9) Server -> Client : 25 bytes (SSL)
+[Network Analyzer (3cd8: 57c)]   (Sid:  9) Client -> Server @ : 581 bytes (SSL)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (3cd8: 57c)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 10) Client -> Server @ : 983 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 10) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 10) Client -> Server @ : 833 bytes (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (3cd8: 57c)]   (Sid: 10) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 10) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 11) Client -> Server @ : 828 bytes (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 10) Client -> Server @ : 742 bytes (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Web Request      (3cd8: 57c)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 12) Client -> Server @ : 744 bytes (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 13)  PROXIED!
+[Web Request      (3cd8: 57c)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 13) Client -> Server @ : 742 bytes (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 14)  PROXIED!
+[Network Analyzer (3cd8: 57c)]   (Sid: 11) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 14) Client -> Server @ : 742 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 13) Server -> Client : 987 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 10) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 12) Server -> Client : 1031 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 14) Server -> Client : 1050 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 11) Connection Terminated (by Server)
+[Web Request      (3cd8: 57c)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 14) Client -> Server @ : 867 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 14) Server -> Client : 838 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 13) Connection Terminated (by Server)
+[Network Analyzer (3cd8: 57c)]   (Sid: 10) Connection Terminated (by Server)
+[Network Analyzer (3cd8: 57c)]   (Sid: 12) Connection Terminated (by Server)
+[Web Request      (3cd8: 57c)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 14) Client -> Server @ : 850 bytes (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (3cd8: 57c)]   (Sid: 14) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 14) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 15) Client -> Server @ : 851 bytes (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 14) Client -> Server @ : 748 bytes (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Network Analyzer (3cd8: 57c)]   (Sid: 14) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 16) Client -> Server @ : 742 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 16) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 15) Server -> Client : 4235 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 15) Server -> Client : 286 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 15) Client -> Server @ : 750 bytes (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /v1/pages/ChRDaHJvbWUvODguMC40MzI0LjE5MBIsCesIHR01a_Z_EgUNVGIprRIFDXudxKUSBQ0fOzmFEgUN2oWZYRIFDamOSr0=?alt=proto"   
+[Network Analyzer (3cd8: 57c)]   (Sid:  8) Client -> Server @ : 563 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 15) Server -> Client : 1056 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid:  8) Server -> Client : 635 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 14) Connection Terminated (by Server)
+[Network Analyzer (3cd8: 57c)]   (Sid: 16) Connection Terminated (by Server)
+[Network Analyzer (3cd8: 57c)]   (Sid: 15) Connection Terminated (by Server)
+[API Trapper      (2940:38dc)] Recording in 64-bit mode: C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Web Request      (3cd8: 57c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 17) Client -> Server @ : 1229 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 17) Server -> Client : 2698 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 17) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 17) Connection Terminated (by Server)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 142.250.71.35:443   (Service=)  (Sid= 18)  PROXIED!
+[Network Analyzer (3cd8:38a8)]   (Sid: 18) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (3cd8:38a8)]   (Sid: 18) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_128_GCM_SHA256)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8: 57c)]   (Sid: 18) Client -> Server @ : 1204 bytes (SSL)(Service=HTTP)
+[Web Request      (3cd8: 57c)] "POST /service/update2/json?cup2key=10:3528347402&cup2hreq=803c85c24fd1ed5b518a57c69169ff0a1704505b83a1b2aaa1a11d7b20aabe7b"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 18) Client -> Server @ : 6607 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 19)  PROXIED!
+[Web Request      (3cd8: 57c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 19) Client -> Server @ : 1124 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 19) Server -> Client : 2962 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 19) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 18) Server -> Client : 1270 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 18) Server -> Client : 1283 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 18) Server -> Client : 5 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 19) Connection Terminated (by Server)
+[Network Analyzer (3cd8: 57c)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 20)  PROXIED!
+[Web Request      (3cd8: 57c)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 20) Client -> Server @ : 1275 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 20) Server -> Client : 2839 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 20) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 20) Client -> Server @ : 713 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 20) Server -> Client : 1103 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 20) Connection Terminated (by Server)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 21)  PROXIED!
+[Web Request      (3cd8: 57c)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 21) Client -> Server @ : 844 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 21) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 21) Client -> Server @ : 725 bytes (Service=HTTP)
+[Network Analyzer (3cd8:3068)] Address lookup for LAPTOP-9UOQIERB = 192.168.0.110
+[Network Analyzer (3cd8:3068)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 22)  PROXIED!
+[Network Analyzer (3cd8: 57c)]   (Sid: 21) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 21) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (3cd8: 57c)] "GET /WebTours/home.html"   
+[Network Analyzer (3cd8: 57c)]   (Sid: 22) Client -> Server @ : 822 bytes (Service=HTTP)
+[Network Analyzer (3cd8: 57c)]   (Sid: 22) Server -> Client : 195 bytes  (Service=HTTP)
